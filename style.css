@@ -1,0 +1,883 @@
+
+.header{
+    background-color: black;
+    color: azure;
+    font-weight: bolder;
+    display: grid;
+    grid-template-columns: 40%  10% 10%  10% 10% 10% 10% ;
+    flex-direction: row; 
+    padding:  20px;
+    width: 95.5%;
+    position: fixed;
+    border: 5px solid rgb(45, 204, 204);
+    box-shadow: 0 0 20px aqua;
+}
+.header:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.home{
+    background-color: black;
+    color: azure;
+    font-size: larger;
+    font-weight: bolder;
+    padding:  20px;
+    text-align: center;
+    border: 5px solid rgb(45, 204, 204);
+    box-shadow: 0 0 20px aqua;
+}
+.home:hover{
+    cursor: pointer;
+    color: aqua;
+}
+.Home{
+    padding: 70px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    background-color:rgba(0, 0, 0, 0.926);
+    display: grid;
+    grid-template-columns: 70% 40%;
+    flex-direction: row;
+    border: 5px solid rgb(45, 204, 204);
+    box-shadow: 0 0 20px aqua;
+}
+.home-info{
+    color: antiquewhite;
+}
+h4:hover{
+    cursor: pointer;
+    color:red;
+    text-shadow: 0px 2px 2px aqua;
+}
+h1:hover{
+    cursor: pointer;
+    color: blue;
+    text-shadow: 0px 0px 2px aqua;
+}
+span:hover{
+    cursor: pointer;
+    color: green;
+    text-shadow: 2px 2px 2px aqua;
+}
+
+.about-button{
+    background-color:rgba(15, 26, 241, 0.427) ;
+    height: 40px;
+    width: auto;
+    margin-left: 100px;
+}
+.line:hover{
+    cursor: pointer;
+    color: aqua;
+}
+.pic{
+    border-radius: 90% ;
+    margin-left: 50px;
+    border: 5px solid rgb(45, 204, 204);
+    box-shadow: 0 0 100px aqua;
+}
+.pic:hover{
+    box-shadow: 0 0 200px aqua;
+    cursor: pointer;
+}
+.about{
+    background-color: black;
+    color: azure;
+    font-size: larger;
+    font-weight: bolder;
+    padding:  20px;
+    text-align: center;
+    border: 5px solid rgb(45, 204, 204);
+    box-shadow: 0 0 20px aqua;
+}
+.about:hover{
+    cursor: pointer;
+    color: aqua;
+}
+.about-info{
+    padding: 20px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.926);
+    display: grid;
+    grid-template-columns: 35% 60%;
+    flex-direction: row;
+    border: 5px solid rgb(45, 204, 204);
+    box-shadow: 0 0 20px aqua;
+}
+.img{
+    
+    margin-left: 100px;
+    border: 5px solid rgb(45, 204, 204);
+    box-shadow: 0 0 100px aqua;
+    border-radius: 20px;
+}
+.img:hover{
+    box-shadow: 0 0 200px aqua;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.para{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: lighter;
+    padding-left: 100px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.para:hover{
+    cursor: pointer;
+    color: aqua;
+}
+.sub-button{
+    color: blue;
+    margin-left: 100px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.sub-button:hover{
+    color: green;
+    cursor: pointer;
+    text-shadow: 2px 2px 2px aqua;
+}
+.education{
+    background-color: black;
+    color: azure;
+    font-size: larger;
+    font-weight: bolder;
+    padding:  20px;
+    text-align: center;
+    border: 5px solid rgb(45, 204, 204);
+    box-shadow: 0 0 20px aqua;
+}
+.education:hover{
+    cursor: pointer;
+    color: aqua;
+}
+.education-info{
+    background-color: rgba(0, 0, 0, 0.926);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 25px;
+    max-width: 1500px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    border: 5px solid rgb(45, 204, 204);
+    box-shadow: 0 0 20px aqua;
+}
+.box {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    border: 5px solid rgb(45, 204, 204);
+    box-shadow: 0 0 10px aqua;
+}
+.box:hover{
+    border: 5px solid rgb(45, 204, 204);
+    box-shadow: 0 0 20px aqua;
+}
+h3{
+    color: brown;
+}
+h3:hover{
+    text-shadow: 2px 2px 2px aqua;
+    cursor: pointer;
+}
+.percentage{
+    color: blue;
+}
+.percentage:hover{
+    text-shadow: 0px 2px 2px blue;
+    cursor: pointer;
+}
+.education-name{
+    color: blueviolet;
+}
+.education-name:hover{
+    text-shadow: 2px 2px 2px blueviolet;
+    cursor: pointer;
+}
+.education-name2{
+    color: chocolate;
+}
+.education-name2:hover{
+    cursor: pointer;
+    text-shadow: 2px 2px 2px chocolate;
+}
+a{
+    text-decoration: none;
+    color:wheat;
+}
+a:hover{
+    cursor: pointer;
+    color: aqua;
+}
+.course{
+    background-color: black;
+    color: azure;
+    font-size: larger;
+    font-weight: bolder;
+    padding:  20px;
+    text-align: center;
+    border: 5px solid rgb(45, 204, 204);
+    box-shadow: 0 0 20px aqua;  
+}
+.course:hover{
+    cursor: pointer;
+    color: aqua;
+}
+.course-info{
+    padding: 45px;
+    background-color: rgba(0, 0,0, 0.926);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px;
+    text-align: center;
+    
+    padding-top: 100px;
+    padding-bottom: 200px;
+    border: 5px solid rgb(45, 204, 204);
+    box-shadow: 0 0 20px aqua;
+}
+.boxes {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    border: 5px solid rgb(45, 204, 204);
+    box-shadow: 0 0 10px aqua;
+}
+.boxes:hover{
+    border: 5px solid rgb(45, 204, 204);
+    box-shadow: 0 0 20px aqua;
+}
+.language{
+    background-color: black;
+    color: azure;
+    font-size: larger;
+    font-weight: bolder;
+    padding:  20px;
+    text-align: center;
+    border: 5px solid rgb(45, 204, 204);
+    box-shadow: 0 0 20px aqua;
+}
+.language:hover{
+    cursor: pointer;
+    color: aqua;
+}
+.language-info{
+    padding: 45px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    background-color: rgba(0, 0,0, 0.926);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 70px;
+    text-align: center;
+    max-width: 1410px;
+    border: 5px solid rgb(45, 204, 204);
+    box-shadow: 0 0 20px aqua;
+}
+
+.skill{
+    text-align: center;
+    height: 20px;
+    background-color: black;
+    color: azure;
+    font-size: larger;
+    font-weight: bolder;
+    padding:  20px;
+    border: 5px solid rgb(45, 204, 204);
+    box-shadow: 0 0 20px aqua;
+}
+.skill:hover{
+    cursor: pointer;
+    color: aqua;
+}
+.technical-skills{
+    text-align: center;
+    background-color:rgba(0, 0,0, 0.926);
+    font-weight: bolder;
+    color: aliceblue;
+    font-size: 25px;
+    border: 5px solid rgb(45, 204, 204);
+    box-shadow: 0 0 20px aqua;
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    
+}
+.technical-skills:hover{
+    cursor: pointer;
+    color: aqua;
+}
+.technical-skill-info{
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 120px;
+    text-align: center;
+    max-width: 1410px;
+    padding:  40px;
+}
+.professionals-skills{
+    padding:  20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 25px;
+    background-color:rgba(0, 0,0, 0.926);
+    font-weight: bolder;
+    border: 5px solid rgb(45, 204, 204);
+    box-shadow: 0 0 20px aqua;
+}
+.professionals-skills:hover{
+    cursor: pointer;
+    color: aqua;
+}
+.professionals-skill-info{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 70px;
+    text-align: center;
+    max-width: 1410px;
+    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    
+}
+.boxes-image {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    border: 5px solid rgb(45, 204, 204);
+    box-shadow: 0 0 10px aqua;
+}
+.boxes-image:hover{
+    border: 5px solid rgb(45, 204, 204);
+    box-shadow: 0 0 20px aqua;
+}
+.images {
+    display: block;
+    transition: transform 0.3s ease, scale 0.5s ease;
+    transform-origin: center center;
+    cursor: pointer;
+    border: 5px solid rgb(45, 204, 204);
+    box-shadow: 0 0 30px aqua;
+  }
+.images:hover  {
+    transform:translateY(-10px) scale(0.5);
+}
+.projects{
+    text-align: center;
+    height: 20px;
+    background-color:black;
+    color: azure;
+    font-size: larger;
+    font-weight: bolder;
+    padding:  20px;
+    border: 5px solid rgb(45, 204, 204);
+    box-shadow: 0 0 20px aqua;
+}
+.projects:hover{
+    cursor: pointer;
+    color: aqua;
+}
+
+.paragraph{
+    line-height: 1.5;
+    text-align: justify;
+}
+.paragraph:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+.ContactForm{
+    background-color: black;
+    width: 96.5%;
+    color: azure;
+    font-size: larger;
+    font-weight: bolder;
+    padding:  20px;
+    text-align: center;
+    border: 5px solid rgb(45, 204, 204);
+    box-shadow: 0 0 20px aqua;
+}
+.ContactForm:hover{
+    cursor: pointer;
+    color: aqua;
+}
+.containers{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    flex-direction: row;
+    border: 5px solid rgb(45, 204, 204);
+    box-shadow: 0 0 20px aqua;
+}
+.left-container{
+    background: linear-gradient(to bottom right, violet, blue, rgb(30, 30, 97));
+    color: beige;
+}
+.title{
+    padding-top: 50px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 45px;
+}
+.title:hover{
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+}
+.paras{
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+.phone-icon{
+    padding-top: 50px;
+    font-size: 25px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+.email-icon{
+    font-size: 25px;
+    padding-left: 50px;
+    padding-right: 30px;
+}
+.icon{
+    padding: 50px;
+    text-align: center;
+}
+button{
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+}
+button:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.right-container{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.row{
+    position: relative;
+    width: 500px;
+    background-color: rgba(19, 26, 1, 0);
+    border-radius: 20px;
+    padding: 20px;    
+}
+.right-title{
+  
+    text-align: center;
+    font-weight: bolder;
+    font-size: 45px;
+}
+.right-title:hover{
+    cursor: pointer;
+    color: aqua;
+}
+.form{
+    padding: 20px;
+    text-align: left;
+    padding-left: 100px; 
+    position: relative;
+    
+}
+.label-form{
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 130px;
+    transform: translateY(-40%);
+   color: aliceblue;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.name {
+    height: 40px;
+    width: 80%;
+    border-radius: 5px;
+    border-color:aquamarine;
+    box-shadow: 0 0 10px aqua;
+    
+    background: transparent;
+    outline: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+.name:focus {
+    outline: none;
+    border-color:aquamarine;
+    box-shadow: 0 0 20px aqua;
+}
+.name:focus + .label-form,
+.name:not(:placeholder-shown) + .label-form {
+    top: 1px;
+    font-size: 20px;
+    color: aqua;
+}
+.email {
+    height: 40px;
+    width: 80%;
+    border-radius: 5px;
+  
+    border-color:aquamarine;
+    box-shadow: 0 0 10px aqua;
+    background: transparent;
+    outline: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+.email:focus {
+    
+    border-color:aquamarine;
+    box-shadow: 0 0 20px aqua;
+}
+.email:focus + .label-form,
+.email:not(:placeholder-shown) + .label-form {
+    top: 1px;
+    font-size: 20px;
+    color: aqua;
+}
+.phone {
+    height: 40px;
+    width: 80%;
+    border-radius: 5px;
+    border-color:aquamarine;
+    box-shadow: 0 0 10px aqua;
+    
+    background: transparent;
+    outline: none;
+    color: aliceblue;
+    font-size: 20px;
+}
+.phone:focus {
+    outline: none;
+    border-color:aquamarine;
+    box-shadow: 0 0 20px aqua;
+}
+.phone:focus + .label-form,
+.phone:not(:placeholder-shown) + .label-form {
+    top: 1px;
+    font-size: 20px;
+    color: aqua;
+}
+
+.message {
+    padding-left: 10px;
+    height: 100px;
+    width: 80%;
+    border-color:aquamarine;
+    box-shadow: 0 0 10px aqua;
+    border-radius: 5px;
+    background: transparent;
+    outline: none;
+    font-size: 20px;
+    color: aliceblue;
+}
+.message:focus {
+    outline: none;
+    border-color:aquamarine;
+    box-shadow: 0 0 10px aqua;
+}
+.message:focus + .label-form,
+.message:not(:placeholder-shown) + .label-form {
+    top: 1px;
+    font-size: 20px;
+    color: aqua;
+}
+.submit-button{
+    height: 40px;
+    width: 90%;
+    background-color: aqua;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(249, 58, 5);
+    padding-left: 0px;
+}
+.submit-button:hover{
+    box-shadow: 0 0 10px aqua;
+    color: blue;
+}
+
+.black{
+    border: 5px solid rgb(45, 204, 204);
+    box-shadow: 0 0 20px aqua;
+    background-color: black;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 30%  40% 30% ;
+    flex-direction: row; 
+    color: beige;
+}
+
+.download-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.download-link:hover {
+    background-color: #0056b3;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .header {
+        grid-template-columns: 1fr 1fr 1fr; /* Adjust columns for mobile */
+        padding: 15px; /* Reduce padding for smaller screens */
+        width: 92.5%;
+    }
+    .header > div {
+        text-align: center;
+    }
+    .Home {
+        grid-template-columns: 100%; /* Stacking the layout vertically */
+        padding: 20px;
+    }
+
+    .home-info {
+        padding: 10px;
+        text-align: center;
+    }
+    .pic {
+        width: 50%;
+        margin: 0px 10px;
+        margin-left: 140px;
+        border-radius: 50%;
+        
+    }
+    .sub-button{
+        width: 50%;
+        margin: 0px 10px;
+        margin-left: 10px;
+        border-radius: 50%;
+    }
+    .about-info {
+        grid-template-columns: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+        
+    }
+
+    .img {
+        width: 50%;
+        margin-right: 100px;
+        box-shadow: 0 0 100px aqua;
+    }
+    .para{
+       margin-right: 100px;
+
+    }
+    .education-info {
+        grid-template-columns: 100%;
+    }
+
+    .course-info {
+        grid-template-columns: 100%;
+    }
+
+    .language-info {
+        grid-template-columns: 100%;
+    }
+    .boxes-image {
+        width: 55%;
+        margin: 10px 0;
+        box-shadow: 0 0 100px aqua;
+    }
+    .technical-skills {
+        font-size: 20px;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .technical-skill-info {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    .professionals-skills {
+        font-size: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .professionals-skill-info {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
+
+    .boxes-image {
+        font-size: 1em;
+        padding: 15px;
+    }
+
+    .images {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .submit-button {
+        width: 100%;
+    }
+
+    .download-link {
+        display: block;
+        text-align: center;
+    }
+}
+/* Small Screen Adjustments */
+@media (max-width: 480px) {
+    .header {
+        grid-template-columns: 100%; /* Full-width header on very small screens */
+        padding: 5px;
+        width: 88.5%;
+    }
+
+    .Home, .about-info, .education-info, .course-info, .language-info {
+        padding: 10px;
+    }
+
+    .row {
+        width: 100%;
+        padding: 10px;
+    }
+    .pic {
+        width: 40%;
+        margin: 0px 10px;
+        margin-left: 130px;
+        border-radius: 50%;
+    }
+    
+    .technical-skills {
+        font-size: 18px;
+        padding: 20px;
+        height: auto;
+    }
+
+    .technical-skill-info {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .professionals-skills {
+        font-size: 18px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .professionals-skill-info {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .boxes-image {
+        font-size: 0.9em;
+        padding: 10px;
+    }
+
+    .images {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+    .ContactForm {
+        font-size: 18px; /* Adjust font size for smaller screens */
+        padding: 15px;  /* Reduce padding */
+    }
+
+    /* Containers adjustment */
+    .containers {
+        display: block;  /* Stack containers vertically */
+        border: none;    /* Remove border */
+        box-shadow: none; /* Remove shadow */
+    }
+
+    .left-container {
+        background: linear-gradient(to bottom right, violet, blue, rgb(30, 30, 97));
+        padding: 15px; /* Reduce padding */
+    }
+
+    .title {
+        font-size: 30px; /* Smaller title */
+        padding-top: 20px; /* Reduced top padding */
+    }
+
+    .paras {
+        font-size: 20px;  /* Reduce paragraph font size */
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .phone-icon, .email-icon {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 20px;  /* Reduce icon size */
+    }
+
+    .right-container {
+        padding: 15px;  /* Reduce padding */
+    }
+
+    .row {
+        width: 100%;   /* Make form row full width */
+        padding: 10px; /* Reduce padding */
+    }
+
+    .form {
+        padding-left: 10px;  /* Reduce padding in the form */
+    }
+
+    .label-form {
+        font-size: 18px; /* Reduce font size for labels */
+        left: 80px;  /* Adjust label position */
+    }
+
+    .submit-button {
+        width: 100%; /* Make submit button full width */
+    }
+
+    .download-link {
+        width: 0%;
+        text-align: center;
+    }
+
+    .icon {
+        padding: 10px;
+    }
+}
+
